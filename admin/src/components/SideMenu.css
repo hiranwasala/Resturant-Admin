@@ -1,0 +1,85 @@
+:root {
+    --background-light: #ffffff;
+    --background-dark: #2d3748;
+   
+}
+
+.brand{
+    background-image: url("../assets/navbar/White\ Brown\ Simple\ Restaurant\ Logo.png");
+}
+
+
+.nav-bar{
+    width: 250px;
+    height: 100vh; 
+}
+
+.nav-menu{
+    background-color: var(--background-light);
+}
+
+.dark .nav-menu{
+    background-color: var(--background-dark);
+}
+
+.logo{
+    width:  200px;
+    height: 200px;
+    text-align: center;
+}
+
+.nav-item{
+   
+    font-weight: 600;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+/* a:hover {
+    background-color: rgba(254, 205, 211, 0.4);
+    width: auto;
+    border-radius: 15px;
+  
+    
+} */
+
+
+
+
+
+.custom-container {
+    background-color: rgb(120, 194, 255);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+
+
+
+
+.hovered-link:hover .text-side-menu {
+    color: red;
+  }
+  
+
+.group{
+   text-decoration: none;
+   
+}
+
+/* .group:hover{
+    color: orange;
+} */
+
+
+
+
+
+
+

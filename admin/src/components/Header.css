@@ -1,0 +1,28 @@
+:root {
+    --background-light: white;
+    --background-dark: #2d3748;
+   
+}
+
+.header {
+    background-color: var(--background-light);
+    width: 100%;
+    height: auto;
+ 
+}
+
+.dark .header {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+}
+
+
+.title{
+    margin-left: 280px;
+}
+
+.avatar{
+    width: 64px;
+    height: 64px;
+}
+

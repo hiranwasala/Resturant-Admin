@@ -1,0 +1,85 @@
+:root {
+    --background-light: rgb(255, 255, 255);
+    --background-dark: #2d3748;
+    --text-light:black;
+    --text-dark: white;
+    --legend-light:#600000;
+    --legend-dark: #ffd857
+}
+
+.container{
+  background-color: var(--background-light);
+}
+
+.dark .container{
+    background-color: var(--background-dark);
+}
+
+.total{
+  background-color: var(--background-light);
+  color: var(--text-light);
+}
+
+.dark .total{
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
+
+.chart{
+  background-color: var(--background-light);
+  color: var(--text-light);
+}
+
+.dark .chart{
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
+
+.radial-chart{
+  background-color: var(--background-light);
+  color: var(--text-light);
+}
+
+.dark .radial-chart{
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
+
+.recent{
+  background-color: var(--background-light);
+  color: var(--text-light);
+}
+
+.dark .recent{
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
+
+.legend{
+  color: var(--legend-light);
+}
+
+.dark .legend{
+  color: var(--legend-dark);
+}
+
+
+
+.custom-scrollbar::-webkit-scrollbar{
+  width: 10px;
+  display: none;
+}
+
+::-webkit-scrollbar-track{
+ background: rgb(71, 71, 83);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: rgb(102, 99, 99);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: rgb(127, 124, 124);
+}

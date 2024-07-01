@@ -1,0 +1,11 @@
+// export const BASE_URL = process.env.NODE_ENV === 'development'?'http://localhost:5000':'';
+export const BASE_URL = '';
+export const PRODUCTS_URL = '/api/products';
+export const ORDERS_URL = '/api/orders';
+export const PAYPAL_URL = '/api/config/paypal';
+export const UPLOADS_URL = '/api/upload';
+export const USERS_URL = '/api/users';
+export const RESERVATION_URL = '/api/reservations';
+export const EMPLOYEE_URL = '/api/employees';
+export const SUPPLIER_URL = '/api/suppliers';
+export const INVENTORY_URL = '/api/inventories';
